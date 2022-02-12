@@ -7,15 +7,17 @@ const ChatUI = () => {
 
                 <section className="full-width-tinted">
                     <div className="logo-details">
-                        <img src="./img/face-1.png" style={{height: 45,
-    width: 45,
-    objectFit: "cover",
-    borderRadius: 26,
-    marginRight: 10}} alt="profileImg" />
+                        <img src="./img/face-1.png" style={{
+                            height: 45,
+                            width: 45,
+                            objectFit: "cover",
+                            borderRadius: 26,
+                            marginRight: 10
+                        }} alt="profileImg" />
                         <div className="logo_name">
                             <div className="name_job">
-                                <div className="name" style={{fontSize: 17}}>Guest-12345</div>
-                                <div className="job" style={{fontSize: 12}}><span className="dot2"></span>&nbsp;Away</div>
+                                <div className="name" style={{ fontSize: 17 }}>Guest-12345</div>
+                                <div className="job" style={{ fontSize: 12 }}><span className="dot2"></span>&nbsp;Away</div>
 
                             </div>
                         </div>
@@ -34,7 +36,7 @@ const ChatUI = () => {
                     <li>
                         <a href="#">
                             <span className="links_name">
-                                <h1 style={{fontSize: 28}}>Contacts</h1>
+                                <h1 style={{ fontSize: 28 }}>Contacts</h1>
                             </span>
                         </a>
                     </li>
@@ -42,41 +44,45 @@ const ChatUI = () => {
                     <li>
                         <i className='bx bx-search'></i>
                         <input type="text" placeholder="Search..." />
-                            <span className="tooltip">Search</span>
+                        <span className="tooltip">Search</span>
                     </li>
                     <li>
                         <a href="#">
                             <span className="">
-                                <h3 style={{color: "rgb(150, 146, 146)"}}>A</h3>
+                                <h3 style={{ color: "rgb(150, 146, 146)" }}>A</h3>
                             </span>
                         </a>
 
                     </li>
                     <div className="logo-details">
-                        <img src="./img/logo1.jpg" style={{height: 35,
-        width: 35,
-        objectFit: "cover",
-    borderRadius: 26,
-    marginRight: 10}} alt="profileImg" />
+                        <img src="./img/logo1.jpg" style={{
+                            height: 35,
+                            width: 35,
+                            objectFit: "cover",
+                            borderRadius: 26,
+                            marginRight: 10
+                        }} alt="profileImg" />
                         <div className="logo_name">
                             <div className="name_job">
-                                <div className="name" style="font-size: 17px; color:black">Darren Adams</div>
-                                <div className="job" style="font-size: 12px; color: rgb(150, 146, 146);"><span className="dot"></span>&nbsp;I'm
+                                <div className="name" style={{ fontSize: 17, color: "black" }}>Darren Adams</div>
+                                <div className="job" style={{ fontSize: 12, color: "rgb(150, 146, 146)" }}><span className="dot"></span>&nbsp;I'm
                                     Available</div>
                             </div>
                         </div>
 
                     </div>
                     <div className="logo-details">
-                        <img src="./img/logo2.jpg" style={{height: 35,
-        width: 35,
-        objectFit: "cover",
-    borderRadius: 26,
-    marginRight: 10}} alt="profileImg" />
+                        <img src="./img/logo2.jpg" style={{
+                            height: 35,
+                            width: 35,
+                            objectFit: "cover",
+                            borderRadius: 26,
+                            marginRight: 10
+                        }} alt="profileImg" />
                         <div className="logo_name">
                             <div className="name_job">
-                                <div className="name" style="font-size: 17px; color:black">Evelyn Allen</div>
-                                <div className="job" style="font-size: 12px; color: rgb(150, 146, 146);"><span className="dot"></span>&nbsp;I'm
+                                <div className="name" style={{ fontSize: 17, color: "black" }}>Evelyn Allen</div>
+                                <div className="job" style={{ fontSize: 12, color: "rgb(150, 146, 146)" }}><span className="dot"></span>&nbsp;I'm
                                     Available</div>
                             </div>
                         </div>
@@ -92,30 +98,34 @@ const ChatUI = () => {
 
                     </li>
                     <div className="logo-details">
-                        <img src="./img/logo3.jpg" style={{height: 35,
-        width: 35,
-        objectFit: "cover",
-    borderRadius: 26,
-    marginRight: 10}} alt="profileImg" />
+                        <img src="./img/logo3.jpg" style={{
+                            height: 35,
+                            width: 35,
+                            objectFit: "cover",
+                            borderRadius: 26,
+                            marginRight: 10
+                        }} alt="profileImg" />
                         <div className="logo_name">
                             <div className="name_job">
-                                <div className="name" style="font-size: 17px; color:black">Kun Chang-Min</div>
-                                <div className="job" style="font-size: 12px; color: rgb(150, 146, 146);"><span className="dot1"></span>&nbsp;I'm
+                                <div className="name" style={{ fontSize: 17, color: "black" }}>Kun Chang-Min</div>
+                                <div className="job" style={{ fontSize: 12, color: "rgb(150, 146, 146)" }}><span className="dot1"></span>&nbsp;I'm
                                     Busy</div>
                             </div>
                         </div>
 
                     </div>
                     <div className="logo-details">
-                        <img src="./img/face-1.png" style={{height: 35,
-        width: 35,
-        objectFit: "cover",
-    borderRadius: 26,
-    marginRight: 10}} alt="profileImg" />
+                        <img src="./img/face-1.png" style={{
+                            height: 35,
+                            width: 35,
+                            objectFit: "cover",
+                            borderRadius: 26,
+                            marginRight: 10
+                        }} alt="profileImg" />
                         <div className="logo_name">
                             <div className="name_job">
-                                <div className="name" style="font-size: 17px; color:black">Heather Clark</div>
-                                <div className="job" style="font-size: 12px; color: rgb(150, 146, 146);"><span className="dot2"></span>&nbsp;I'm
+                                <div className="name" style={{ fontSize: 17, color: "black" }}>Heather Clark</div>
+                                <div className="job" style={{ fontSize: 12, color: "rgb(150, 146, 146)" }}><span className="dot2"></span>&nbsp;I'm
                                     Away</div>
                             </div>
                         </div>
@@ -123,15 +133,17 @@ const ChatUI = () => {
                     </div>
 
                     <div className="logo-details">
-                        <img src="./img/logo1.jpg" style={{height: 35,
-        width: 35,
-        objectFit: "cover",
-    borderRadius: 26,
-    marginRight: 10}} alt="profileImg" />
+                        <img src="./img/logo1.jpg" style={{
+                            height: 35,
+                            width: 35,
+                            objectFit: "cover",
+                            borderRadius: 26,
+                            marginRight: 10
+                        }} alt="profileImg" />
                         <div className="logo_name">
                             <div className="name_job">
-                                <div className="name" style="font-size: 17px; color:black">Barbara Cotilla</div>
-                                <div className="job" style="font-size: 12px; color: rgb(150, 146, 146);"><span className="dot"></span>&nbsp;I'm
+                                <div className="name" style={{ fontSize: 17, color: "black" }}>Barbara Cotilla</div>
+                                <div className="job" style={{ fontSize: 12, color: "rgb(150, 146, 146)" }}><span className="dot"></span>&nbsp;I'm
                                     Available</div>
                             </div>
                         </div>
@@ -142,20 +154,22 @@ const ChatUI = () => {
                     <li>
                         <a href="#">
                             <span className="">
-                                <h3 style="color: rgb(150, 146, 146);">D</h3>
+                                <h3 style={{ color: "rgb(150, 146, 146)" }}>D</h3>
                             </span>
                         </a>
                     </li>
                     <div className="logo-details">
-                        <img src="./img/logo2.jpg" style={{height: 35,
-        width: 35,
-        objectFit: "cover",
-    borderRadius: 26,
-    marginRight: 10}} alt="profileImg" />
+                        <img src="./img/logo2.jpg" style={{
+                            height: 35,
+                            width: 35,
+                            objectFit: "cover",
+                            borderRadius: 26,
+                            marginRight: 10
+                        }} alt="profileImg" />
                         <div className="logo_name">
                             <div className="name_job">
-                                <div className="name" style="font-size: 17px; color:black">Gauthier Drewitt</div>
-                                <div className="job" style="font-size: 12px; color: rgb(150, 146, 146);"><span className="dot2"></span>&nbsp;I'm
+                                <div className="name" style={{ fontSize: 17, color: "black" }}>Gauthier Drewitt</div>
+                                <div className="job" style={{ fontSize: 12, color: "rgb(150, 146, 146)" }}><span className="dot2"></span>&nbsp;I'm
                                     Away</div>
                             </div>
                         </div>
@@ -177,7 +191,7 @@ const ChatUI = () => {
             </div>
             <section className="home-section">
                 <div className="text">
-                    <h1 style=" margin-top:18rem;">Select a chat to start messaging</h1>
+                    <h1 style={{ marginTop: 18 }}>Select a chat to start messaging</h1>
                 </div>
             </section>
         </div>
