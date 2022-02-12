@@ -1,9 +1,9 @@
 
-let sidebar = document.querySelector(".sidebar");
-let closeBtn = document.querySelector("#btn");
-let searchBtn = document.querySelector(".bx-search");
+export let sidebar = document.querySelector(".sidebar");
+export let closeBtn = document.querySelector("#btn");
+export let searchBtn = document.querySelector(".bx-search");
 
-closeBtn.addEventListener("click", () => {
+export default closeBtn.addEventListener("click", () => {
   sidebar.classList.toggle("open");
   menuBtnChange();//calling the function(optional)
 });
